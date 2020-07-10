@@ -26,6 +26,9 @@ function urlUrlGenerator(domain) {
     }
 }
 
+console.log(urlUrlGenerator('com')); // => [Function]
+console.log('===');
+
 const comUrl = urlUrlGenerator('com');
 const ruUrl = urlUrlGenerator('ru');
 
