@@ -166,17 +166,3 @@ function lastVisit(user) {
 console.log(lastVisit(users[0])); // 2020-07-14T17:00:06.036Z
 console.log(lastVisit(users[1])); // 2020-07-14T17:01:06.036Z
 console.log(lastVisit(users[2])); // 2020-07-14T17:05:06.036Z
-
-console.log('===9===');
-
-console.log('===10===');
-
-console.log('===11===');
-
-console.log('===12===');
-
-console.log('===2===');
-
-console.log('===2===');
-
-console.log('===2===');
