@@ -19,7 +19,7 @@ function sendRequest(method, url, body = null) {
       if (response.ok) {
         return response.json();
       }
-      return res.json()
+      return response.json()
         .then(error => {
           const e = new Error('Something went wrong')
           e.data = error
